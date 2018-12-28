@@ -107,7 +107,7 @@
             <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
             <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
                 <li class="nav-item start {{in_array(Request::path(), ['/', 'subscribe', 'profile']) ? 'active open' : ''}}">
-                    <a href="/" class="nav-link nav-toggle">
+                    <a href="/index.php" class="nav-link nav-toggle">
                         <i class="icon-home"></i>
                         <span class="title">{{trans('home.home')}}</span>
                         <span class="selected"></span>
